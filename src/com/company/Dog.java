@@ -31,7 +31,8 @@ public class Dog {
     public void setAge(int age) {
         if(age<0){
             System.out.println("age is a never negative number");
-        }else{
-        this.age = age;}
+        }else {
+            this.age = age;
+        }
     }
 }
